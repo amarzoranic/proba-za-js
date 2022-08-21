@@ -1,7 +1,8 @@
 
 broj = prompt("Unesi broj");
 if (broj >= 0) {
-    console.log("Uneli ste pozitivan broj");
+    alert("Uneli ste pozitivan broj");
 }
 else {
-    console.log("Uneli ste negativan broj");
+    alert("Uneli ste negativan broj");
+}
