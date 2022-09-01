@@ -27,14 +27,20 @@
 
 
 // console.log("  *  ");
-unos = 4
-zvezdice ="*"
-for (i=0; i < unos;i++) {
-    razmak= ""
-    for(j=i; j< unos; j++) {
-        razmak += " ";
-    }
-    console.log(razmak + zvezdice);
-    zvezdice += " *"
+// unos = 4
+// zvezdice ="*"
+// for (i=0; i < unos;i++) {
+//     razmak= ""
+//     for(j=i; j< unos; j++) {
+//         razmak += " ";
+//     }
+//     console.log(razmak + zvezdice);
+//     zvezdice += " *"
 
-}
+// }
+
+const number = [2,4,6,8,10]
+const kvadrati = number.map((el) => {
+    return el* el;;
+})
+console.log(kvadrati);
