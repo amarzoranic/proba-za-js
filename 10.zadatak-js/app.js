@@ -124,7 +124,13 @@
 
 //reduce-2.primer
 
-const arr1 = [420, 990, 1320, 560, 740, 2090]
+// const arr1 = [420, 990, 1320, 560, 740, 2090]
 
-const racun = arr1.reduce((prevValue, currValue) => prevValue + currValue, 400)
-console.log(racun);
+// const racun = arr1.reduce((prevValue, currValue) => prevValue + currValue, 400)
+// console.log(racun);
+
+
+//iz datog niza vratiti sumu elemenata koji su iz intervala (12,32)pomnoziti sa 5
+//pocetna vrednost sume treba biti 299
+
+const arr1 = [-14, 26, 21, 13, 19, 55, 46, 58, 96]
