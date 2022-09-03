@@ -84,7 +84,47 @@
 
 //ispisati niz koji je sadrzan od elemenata starog niza pomnozen sa 3
 
-const arr1 = [12,15,19,22,58,36,-32, -58]
+// const arr1 = [12,15,19,22,58,36,-32, -58]
 
-arr2 = arr1.map (el => el *3)
-console.log(arr2);
+// arr2 = arr1.map (el => el *3)
+// console.log(arr2);
+
+//iz datog niza vratiti duplirane vrednosti parnih brojeva
+
+// const arr1 = [1,35,47,65,44,12,78,87]
+// arr2 = arr1.filter (el =>  el % 2===0).map (el => el * 2)
+// console.log(arr2);
+
+
+//reduce()metoda vraca jednu vrednost, kada hocemo da izvucemo sumu elemneata
+//najcesci primeri za reduce() metodu su kada hocemo da dobijemu sumu
+
+
+//vratiti sumu svih elemenata datog izraza:
+
+// const arr1 = [1,3,5,7,9,]
+// const suma = arr1.reduce((prevValue, curValue) => prevValue + curValue)
+
+// console.log(suma);
+
+// const arr1 = [1,35,47,65,44,12,78,87]
+
+// let arr2 = arr1.forEach((el, index, array) =>  {
+//    return console.log(el, index, array)});
+//    console.log(arr2);
+
+//iz datog niza izdvojiti sve parne brojeve vece od nule.atim vratiti sumu elemenata koji zadovoljavaju odredjene uslove pomn. sa 3.
+
+
+// const arr1= [-56, -32, 55, 12, 14, 13, 45, 64]
+// const sum= arr1.filter (el => el > 0 & el % 2===0 
+//     ).map(el => el *3
+//         ).reduce((prevValue, curValue) => prevValue + curValue)
+// console.log(sum);
+
+//reduce-2.primer
+
+const arr1 = [420, 990, 1320, 560, 740, 2090]
+
+const racun = arr1.reduce((prevValue, currValue) => prevValue + currValue, 400)
+console.log(racun);
