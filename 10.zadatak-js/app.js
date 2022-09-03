@@ -77,9 +77,14 @@
 // })
 // console.log(filtriranje);
 
+// const arr1 = [12,15,19,22,58,36,-32, -58]
+
+// filter = arr1.filter ((el)=> el > 18)
+// console.log(filter);
+
+//ispisati niz koji je sadrzan od elemenata starog niza pomnozen sa 3
+
 const arr1 = [12,15,19,22,58,36,-32, -58]
 
-filter = arr1.filter ((el)=> {
-    return el > 18
-})
-console.log(filter);
+arr2 = arr1.map (el => el *3)
+console.log(arr2);
