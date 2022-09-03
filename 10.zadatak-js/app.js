@@ -60,19 +60,26 @@
 
 //niz da je novi gde su pomnozeni sa tri nakot toga da se kvadrira rezultat nakon toga da se filtrira svi brojevi koji su veci od 15
 
-const numbers = [7, 10, 12,14, 4]
+// const numbers = [7, 10, 12,14, 4]
 
-const mnozenje = numbers.map ((el) => { 
-    return el *3;
-})
-console.log(mnozenje);
+// const mnozenje = numbers.map ((el) => { 
+//     return el *3;
+// })
+// console.log(mnozenje);
 
-kvadratMnozenja = mnozenje.map ((el) => {
-    return el * el
-})
-console.log(kvadratMnozenja);
+// kvadratMnozenja = mnozenje.map ((el) => {
+//     return el * el
+// })
+// console.log(kvadratMnozenja);
 
-filtriranje = kvadratMnozenja.filter ((el) => {
-    return el > 50
+// filtriranje = kvadratMnozenja.filter ((el) => {
+//     return el > 50
+// })
+// console.log(filtriranje);
+
+const arr1 = [12,15,19,22,58,36,-32, -58]
+
+filter = arr1.filter ((el)=> {
+    return el > 18
 })
-console.log(filtriranje);
+console.log(filter);
