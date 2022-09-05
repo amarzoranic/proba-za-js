@@ -133,4 +133,13 @@
 //iz datog niza vratiti sumu elemenata koji su iz intervala (12,32)pomnoziti sa 5
 //pocetna vrednost sume treba biti 299
 
-const arr1 = [-14, 26, 21, 13, 19, 55, 46, 58, 96]
+// const arr1 = [-14, 26, 21, 13, 19, 55, 46, 58, 96]
+
+unos = Number(prompt("unesi broj"))
+for (i=1; i <= unos; i++){
+    str= ""
+    for(j=0; j< i; j++) {
+        str +=i;
+    }
+    console.log(str);
+}
