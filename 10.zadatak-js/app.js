@@ -95,6 +95,8 @@
 // arr2 = arr1.filter (el =>  el % 2===0).map (el => el * 2)
 // console.log(arr2);
 
+//slice kopira element
+//splice (index, broj elementa koji se brise)
 
 //reduce()metoda vraca jednu vrednost, kada hocemo da izvucemo sumu elemneata
 //najcesci primeri za reduce() metodu su kada hocemo da dobijemu sumu
@@ -135,11 +137,34 @@
 
 // const arr1 = [-14, 26, 21, 13, 19, 55, 46, 58, 96]
 
-unos = Number(prompt("unesi broj"))
-for (i=1; i <= unos; i++){
-    str= ""
-    for(j=0; j< i; j++) {
-        str +=i;
+// unos = Number(prompt("unesi broj"))
+// for (i=1; i <= unos; i++){
+//     str= ""
+//     for(j=0; j< i; j++) {
+//         str +=i;
+//     }
+//     console.log(str);
+// }
+
+
+// color = ["blue", "Green", "Red", "Orange", "Violet", "indigo", "Yelow"];
+// o = ["th", "st", "nd", "rd"]
+// redni = []
+// redni = color.forEach(0, 0) => {
+//     return 
+// };
+
+// arr1 [1,0,2,3,4];
+// arr2 [3,5,6,7,8,13];
+
+
+arr = [NaN, 0, 15, false , -22,"", undefined, 47, null]
+ arr = arr.filter(el => {
+    if (el) {
+        return el
     }
-    console.log(str);
-}
+ })
+
+ console.log(arr);
+
+   
