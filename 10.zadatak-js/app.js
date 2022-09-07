@@ -158,13 +158,17 @@
 // arr2 [3,5,6,7,8,13];
 
 
-arr = [NaN, 0, 15, false , -22,"", undefined, 47, null]
- arr = arr.filter(el => {
-    if (el) {
-        return el
-    }
- })
+// arr = [NaN, 0, 15, false , -22,"", undefined, 47, null]
+//  arr = arr.filter(el => {
+//     if (el) {
+//         return el
+//     }
+//  })
 
- console.log(arr);
+//  console.log(arr);
 
-   
+function sayHi() {
+    return (() => 0)();
+  }
+  
+  console.log(typeof sayHi());   
