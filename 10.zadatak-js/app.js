@@ -167,8 +167,51 @@
 
 //  console.log(arr);
 
-function sayHi() {
-    return (() => 0)();
-  }
+// function sayHi() {
+//     return (() => 0)();
+//   }
   
-  console.log(typeof sayHi());   
+//   console.log(typeof sayHi());   
+
+// arr = [1,2,3,4,5,6]
+
+// for (i=0; i< arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+// arr = [2, 5, 100]
+
+// function doubleNumbers(arr) {
+//     return arr.map((el))=> el * 2
+   
+// }
+// console.log(arr);
+
+// arr = ["john", "JACOB", "jinGleheimer", "sdfsdfsd"]
+// function capitalizeNames(arr){
+//     return arr.map ((el) => el[0].toUpperCase() + el.slice(.toLowerCase()));
+// }
+// console.log(capitalizeNames);
+
+// function fiveAndGreaterOnly(arr){
+//     return arr.filter((el) => el > 5) 
+// }
+// console.log(fiveAndGreaterOnly([3,6,8,2]));
+
+// fiveCharactersOrFewerOnly(arr) {
+//     return arr.filter((el)=> el <= 5)
+// }
+// console.log(fiveCharactersOrFewerOnly());
+
+// arr = [1,2,3]
+// function stringConcat(arr){
+//     return arr.reduce((el,val)=> {
+//         return stringConcat(el)+ val;
+//     }, "");
+// }
+// console.log(stringConcat([1,2,3]));
+
+
+ 
+
+
