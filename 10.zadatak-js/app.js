@@ -211,7 +211,34 @@
 // }
 // console.log(stringConcat([1,2,3]));
 
+// numbers = [10,20,30,40,50,60,70]
+// target = 50;
+// for (i=0; i <= numbers.length;i++){
+// rest = target - numbers[i]
+// const indexOfRest = numbers.indexOf(rest)
+// if (indexOfRest > -1){
+//     console.log(indexOfRest, i);
+//     break;
+//}}
 
+color = ["blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"]
+o= ["th", "st", "nd", "rd"]
  
+color.forEach((color, i) => {
+    switch (i+1) {
+        case 1:
+            console.log(`${i+1}${o[1]}${color}`);
+            break;
+        case 2: 
+        console.log(`${i+1}${o[2]}${color}`);
+            break;
+        case 3:
+            console.log(`${i+1}${o[3]}${color}`);
+            break;
+            default:
+                console.log(`${i+1}${o[0]}${color}`);
+                break;
 
+    }
+});
 
