@@ -221,24 +221,46 @@
 //     break;
 //}}
 
-color = ["blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"]
-o= ["th", "st", "nd", "rd"]
+// color = ["blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"]
+// o= ["th", "st", "nd", "rd"]
  
-color.forEach((color, i) => {
-    switch (i+1) {
-        case 1:
-            console.log(`${i+1}${o[1]}${color}`);
-            break;
-        case 2: 
-        console.log(`${i+1}${o[2]}${color}`);
-            break;
-        case 3:
-            console.log(`${i+1}${o[3]}${color}`);
-            break;
-            default:
-                console.log(`${i+1}${o[0]}${color}`);
-                break;
+// color.forEach((color, i) => {
+//     switch (i+1) {
+//         case 1:
+//             console.log(`${i+1}${o[1]}${color}`);
+//             break;
+//         case 2: 
+//         console.log(`${i+1}${o[2]}${color}`);
+//             break;
+//         case 3:
+//             console.log(`${i+1}${o[3]}${color}`);
+//             break;
+//             default:
+//                 console.log(`${i+1}${o[0]}${color}`);
+//                 break;
 
-    }
-});
+//     }
+// });
 
+//Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books. Go to the editor
+
+
+var library = [ 
+   {
+       author: 'Bill Gates',
+       title: 'The Road Ahead',
+       readingStatus: true
+   },
+   {
+       author: 'Steve Jobs',
+       title: 'Walter Isaacson',
+       readingStatus: true
+   },
+   {
+       author: 'Suzanne Collins',
+       title:  'Mockingjay: The Final Book of The Hunger Games', 
+       readingStatus: false
+   }];
+
+library.forEach((book) => {
+console.log(book.author);});
