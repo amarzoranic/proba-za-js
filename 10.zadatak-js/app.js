@@ -245,22 +245,51 @@
 //Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books. Go to the editor
 
 
-var library = [ 
-   {
-       author: 'Bill Gates',
-       title: 'The Road Ahead',
-       readingStatus: true
-   },
-   {
-       author: 'Steve Jobs',
-       title: 'Walter Isaacson',
-       readingStatus: true
-   },
-   {
-       author: 'Suzanne Collins',
-       title:  'Mockingjay: The Final Book of The Hunger Games', 
-       readingStatus: false
-   }];
+// var library = [ 
+//    {
+//        author: 'Bill Gates',
+//        title: 'The Road Ahead',
+//        readingStatus: true
+//    },
+//    {
+//        author: 'Steve Jobs',
+//        title: 'Walter Isaacson',
+//        readingStatus: true
+//    },
+//    {
+//        author: 'Suzanne Collins',
+//        title:  'Mockingjay: The Final Book of The Hunger Games', 
+//        readingStatus: false
+//    }];
 
-library.forEach((book) => {
-console.log(book.author);});
+// library.forEach((book) => {
+// console.log(book.author);});
+
+players = [
+    {name: "Hanaber Hillary", chickens: 5, hamburgers: 17, hotdogs: 11},
+    {name: "Big Bob", chickenwings: 20, hamburgers: 4, hotdogs: 11}
+];
+
+points = {
+    chickens: 5,
+    hamburgers: 3,
+    hotdogs: 2,
+};
+
+scoreboard = players.map((player) => {
+    let playerpoints = 0;
+    Object.values(points).forEach((values) => {
+        playerpoints += player[values] * points[values];
+    });
+    return {
+        name: player.name, score: playerpoints };
+    });
+
+    console.log(scoreboard);
+
+// dog = {
+//     age: 3,
+//     breed:,
+//     vaccinated, 
+//     wormed:
+// }
