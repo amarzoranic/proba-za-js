@@ -265,31 +265,66 @@
 // library.forEach((book) => {
 // console.log(book.author);});
 
-players = [
-    {name: "Hanaber Hillary", chickens: 5, hamburgers: 17, hotdogs: 11},
-    {name: "Big Bob", chickenwings: 20, hamburgers: 4, hotdogs: 11}
-];
+// players = [
+//     {name: "Hanaber Hillary", chickens: 5, hamburgers: 17, hotdogs: 11},
+//     {name: "Big Bob", chickenwings: 20, hamburgers: 4, hotdogs: 11}
+// ];
 
-points = {
-    chickens: 5,
-    hamburgers: 3,
-    hotdogs: 2,
-};
+// points = {
+//     chickens: 5,
+//     hamburgers: 3,
+//     hotdogs: 2,
+// };
 
-scoreboard = players.map((player) => {
-    let playerpoints = 0;
-    Object.values(points).forEach((values) => {
-        playerpoints += player[values] * points[values];
-    });
-    return {
-        name: player.name, score: playerpoints };
-    });
+// scoreboard = players.map((player) => {
+//     let playerpoints = 0;
+//     Object.keys(points).forEach((key) => {
+//         playerpoints += player[key] * points[key];
+//     });
+//     return {
+//         name: player.name, score: playerpoints };
+//     });
 
-    console.log(scoreboard);
+//     console.log(scoreboard);
 
 // dog = {
 //     age: 3,
 //     breed:,
 //     vaccinated, 
 //     wormed:
+// }\\
+
+
+
+
+word = "abracadabra"
+result = []
+wordArr = word.split("")
+wordArr.forEach((letter) => {
+    if (result[letter]) {
+        result[letter] += 1
+    }
+    else {
+        result[letter] = 1;
+    }
+    
+});
+console.log(result);
+// const data1 = {
+//     a: 1,
+//     b: 1
 // }
+
+// const data2 = {
+//     a: 1,
+//     b: 1
+// }
+
+// const data3 = {
+//     a: 1,
+//     b: 2,
+// }
+
+// isEqualData = Object.keys(data).every(key) => {
+    
+// });
