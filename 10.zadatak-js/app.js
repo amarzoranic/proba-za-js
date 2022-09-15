@@ -170,7 +170,7 @@
 // function sayHi() {
 //     return (() => 0)();
 //   }
-  
+
 //   console.log(typeof sayHi());   
 
 // arr = [1,2,3,4,5,6]
@@ -183,7 +183,7 @@
 
 // function doubleNumbers(arr) {
 //     return arr.map((el))=> el * 2
-   
+
 // }
 // console.log(arr);
 
@@ -223,7 +223,7 @@
 
 // color = ["blue", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow"]
 // o= ["th", "st", "nd", "rd"]
- 
+
 // color.forEach((color, i) => {
 //     switch (i+1) {
 //         case 1:
@@ -307,7 +307,7 @@
 //     else {
 //         result[letter] = 1;
 //     }
-    
+
 // });
 // console.log(result);
 // const data1 = {
@@ -326,7 +326,7 @@
 // }
 
 // isEqualData = Object.keys(data).every(key) => {
-    
+
 // });
 
 // function pozdrav(ime) {
@@ -335,4 +335,13 @@
 
 // pozdrav("amar")
 
-
+broj = Number(prompt("Unesite broj"))
+paran = broj % 2 === 0
+function provera() {
+    if (paran) {
+        console.log("broj je paran");
+    } else if (!paran ) {
+        console.log("broj nije paran");
+    }
+}
+provera()
