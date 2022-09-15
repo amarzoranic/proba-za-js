@@ -297,19 +297,19 @@
 
 
 
-word = "abracadabra"
-result = []
-wordArr = word.split("")
-wordArr.forEach((letter) => {
-    if (result[letter]) {
-        result[letter] += 1
-    }
-    else {
-        result[letter] = 1;
-    }
+// word = "abracadabra"
+// result = []
+// wordArr = word.split("")
+// wordArr.forEach((letter) => {
+//     if (result[letter]) {
+//         result[letter] += 1
+//     }
+//     else {
+//         result[letter] = 1;
+//     }
     
-});
-console.log(result);
+// });
+// console.log(result);
 // const data1 = {
 //     a: 1,
 //     b: 1
@@ -328,3 +328,9 @@ console.log(result);
 // isEqualData = Object.keys(data).every(key) => {
     
 // });
+
+function pozdrav(ime) {
+    console.log(ime);
+}
+
+pozdrav("amar")
