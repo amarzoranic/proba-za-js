@@ -329,8 +329,10 @@
     
 // });
 
-function pozdrav(ime) {
-    console.log(ime);
-}
+// function pozdrav(ime) {
+//     console.log(ime);
+// }
 
-pozdrav("amar")
+// pozdrav("amar")
+
+
