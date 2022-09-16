@@ -335,13 +335,23 @@
 
 // pozdrav("amar")
 
-broj = Number(prompt("Unesite broj"))
-paran = broj % 2 === 0
-function provera() {
-    if (paran) {
-        console.log("broj je paran");
-    } else if (!paran ) {
-        console.log("broj nije paran");
+// function provera() {
+//     broj = Number(prompt("Unesite broj"))
+
+//     paran = broj % 2 === 0
+//     if (paran) {
+//         console.log("broj je paran");
+//     } else if (!paran ) {
+//         console.log("broj nije paran");
+//     }
+// }
+// provera()
+
+function sabiranje (prvi, drugi) {
+    zbroj = prvi + drugi
+    for (let zbroj = 0; zbroj < 4; zbroj++) {
+        console.log(zbroj);
     }
 }
-provera()
+
+sabiranje(1,2)
