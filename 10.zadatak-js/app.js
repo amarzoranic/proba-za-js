@@ -347,11 +347,30 @@
 // }
 // provera()
 
-function sabiranje (prvi, drugi) {
-    zbroj = prvi + drugi
-    for (let zbroj = 0; zbroj < 4; zbroj++) {
-        console.log(zbroj);
+// function sabiranje (prvi, drugi) {
+//     zbroj = prvi + drugi
+//     for (let zbroj = 0; zbroj < 4; zbroj++) {
+//         console.log(zbroj);
+//     }
+// }
+
+// sabiranje(1,2)
+
+names = []
+
+function unos() {
+    var name = prompt("Unestie ime")
+    if (name !== "kraj") {
+        names[names.length] = name;
+    unos();
+    } 
+    else {opet()
     }
 }
+unos()
 
-sabiranje(1,2)
+function opet(){
+    for(var i=0;i < names.length;i++){
+        console.log(names[i]);
+    }
+}
