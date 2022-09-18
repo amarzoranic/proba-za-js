@@ -356,21 +356,33 @@
 
 // sabiranje(1,2)
 
-names = []
+// names = []
 
-function unos() {
-    var name = prompt("Unestie ime")
-    if (name !== "kraj") {
-        names[names.length] = name;
-    unos();
-    } 
-    else {opet()
-    }
-}
-unos()
+// function unos() {
+//     var name = prompt("Unestie ime")
+//     if (name !== "kraj") {
+//         names[names.length] = name;
+//     unos();
+//     } 
+//     else {opet()
+//     }
+// }
+// unos()
 
-function opet(){
-    for(var i=0;i < names.length;i++){
-        console.log(names[i]);
-    }
-}
+// function opet(){
+//     for(var i=0;i < names.length;i++){
+//         console.log(names[i]);
+//     }
+// }
+
+// function info(a,b){
+// console.log(a + b);
+// }
+
+// info(10,20)
+
+function multiply(a, b){
+    var bla = a * b
+    console.log(bla);
+  };
+  multiply(1,2)
