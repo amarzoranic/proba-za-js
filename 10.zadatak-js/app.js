@@ -381,8 +381,27 @@
 
 // info(10,20)
 
-function multiply(a, b){
-    var bla = a * b
-    console.log(bla);
-  };
-  multiply(1,2)
+// function multiply(a, b){
+//     var bla = a * b
+//     console.log(bla);
+//   };
+//   multiply(1,2)
+
+
+function modifyMultiply(str,loc,num) {
+    wordArr = str.split(" ");
+      word = [];
+      for(let i = 0; i < num; i++) {
+        word.push(wordArr[loc]);
+      }
+      word = word.join("-");
+      return word;
+        }
+      result = modifyMultiply("This is a string", 3, 5);
+      console.log(result)
+
+      arr= [1,4,3,2,1,2,3,2]
+
+      arr2=[1,4,1,2,11,2,3,1];
+
+      
