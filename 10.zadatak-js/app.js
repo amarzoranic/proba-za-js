@@ -388,20 +388,36 @@
 //   multiply(1,2)
 
 
-function modifyMultiply(str,loc,num) {
-    wordArr = str.split(" ");
-      word = [];
-      for(let i = 0; i < num; i++) {
-        word.push(wordArr[loc]);
-      }
-      word = word.join("-");
-      return word;
-        }
-      result = modifyMultiply("This is a string", 3, 5);
-      console.log(result)
+// function modifyMultiply(str,loc,num) {
+//     wordArr = str.split(" ");
+//       word = [];
+//       for(let i = 0; i < num; i++) {
+//         word.push(wordArr[loc]);
+//       }
+//       word = word.join("-");
+//       return word;
+//         }
+//       result = modifyMultiply("This is a string", 3, 5);
+//       console.log(result)
 
-      arr= [1,4,3,2,1,2,3,2]
+//       arr= [1,4,3,2,1,2,3,2]
 
-      arr2=[1,4,1,2,11,2,3,1];
+//       arr2=[1,4,1,2,11,2,3,1];
 
-      
+// function hipotenuza(a, b) { 
+// 	return Math.sqrt( a*a + b*b )
+// }
+// alert(`Hipotenuza trougla sa katetama 35 i 32 je: ${hipotenuza(35, 32)}` )
+// alert(`Hipotenuza trougla sa katetama 15 i 9 je: ${hipotenuza(15, 9)}` )
+// alert(`Hipotenuza trougla sa katetama 16 i 3 je: ${hipotenuza(16, 3)}` )
+// alert(`Hipotenuza trougla sa katetama 11 i 26 je: ${hipotenuza(11, 26)}` )
+// alert(`Hipotenuza trougla sa katetama 31 i 5 je: ${hipotenuza(31, 5)}` )
+
+function test(){
+	console.log("iz deklarisane funkcije");
+  }                                        // prvo se diže cela funkcija
+  var test;                                // zatim se diže deklaracija promenjive
+  var test = function (){
+	console.log("iz function expression");
+  }                                        // ostalo na istom mestu u kodu
+  test();                                  // ostalo na istom mestu u kodu
